@@ -2,6 +2,8 @@
 
 The proposal of this project is to scrutinize risk premia measurement through machine learning lenses, in order to leverage the ability of machine learning methods to capture nonlinear interaction of the characteristic factors. The goal of this project is to establish a sure way to build and select factors to price assets and forecast risk premia. The characteristics used were based on the paper "Deep Learning in Asset Pricing" by Chen, Pelger and Zhu (2019). Unfortunately, the data cannot be shared.
 
+Data: Monthly returns from 1963 until 2017, encompassing 8436 stocks.
+
 Methodology:
 
 1 - Returns were shifted in order to establish a lag-relationship with characteristics in order to avoid forward-looking bias.
